@@ -19,9 +19,9 @@ body {
 .player-container {
   height: 500px;
   width: 400px;
-  background-color: #e7e7e7;
-  border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+  background-color: #c9ced3;
+  border-radius: 50px;
+  box-shadow: -20px -20px 60px #abafb3, 20px 20px 60px #e7edf3;
 }
 
 .img-container {
@@ -36,8 +36,9 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  background: #c9ced3;
+  box-shadow: inset -20px -20px 60px #abafb3, inset 20px 20px 60px #e7edf3;
 }
 
 h2 {
